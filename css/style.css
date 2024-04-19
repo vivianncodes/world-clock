@@ -34,6 +34,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 35px;
+  color: #4d4177;
 }
 
 .container {
@@ -55,10 +56,6 @@ h2 {
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   border-bottom-color: #f469a7;
-}
-
-.city:last-child {
-  border: none;
 }
 
 .date {
