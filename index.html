@@ -17,29 +17,33 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+
+      <select id="city">
         <option value="">Select a city</option>
         <option value="">My current location</option>
-        <option value="">Hanoi</option>
-        <option value="">Barcelona</option>
-        <option value="">Seoul</option>
+        <option value="Asia/Ho_Chi_Minh">Hanoi</option>
+        <option value="Europe/Madrid">Barcelona</option>
+        <option value="Asia/Seoul">Seoul</option>
       </select>
 
-      <div class="city" id="chicago">
-        <div>
-          <h2>Chicago</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="chicago">
+          <div>
+            <h2>Chicago</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
+
+        <div class="city" id="tampa">
+          <div>
+            <h2>Tampa</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
       </div>
 
-      <div class="city" id="tampa">
-        <div>
-          <h2>Tampa</h2>
-          <div class="date">April 18th 2024</div>
-        </div>
-        <div class="time">5:20:00 <small> PM </small></div>
-      </div>
       <footer>
         This project was coded by
         <a
@@ -53,8 +57,7 @@
         >
         👩‍💻
       </footer>
+      <script src="javascript/index.js"></script>
     </div>
-
-    <script src="javascript/index.js"></script>
   </body>
 </html>
