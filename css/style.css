@@ -37,12 +37,21 @@ h2 {
   color: #4d4177;
 }
 
+a {
+  text-decoration: none;
+  color: #4d4177;
+}
+
+#specific-link {
+  text-decoration: underline !important;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
   background: #fff8d6;
   padding: 5px 40px 40px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
@@ -86,4 +95,5 @@ footer {
   font-size: 13px;
   color: black;
   padding: 10px 0 0 0;
+  line-height: 20px;
 }
